@@ -76,6 +76,10 @@
 <p>	c. Doktorlar<br><br> </p>
 <hr>
 <p title="5 harfli"><b>7.</b> Bana aslında koyulacak isim neydi? (5 puan)<br><br> </p>
+<input id="name" value="Yaz" />
+
+<button onclick="myFunction()">Try it</button>
+<br>
 <hr>
 <p><b>8.</b> Küçükken yanımdan ayırmadığım battaniyemin adı nedir? (5 puan)<br><br> </p>
 <hr>
@@ -142,5 +146,11 @@
 <a href="mailto:ssancak18@ku.edu.tr" target="_blank"><img src="https://getwemail.io/app/uploads/2020/10/gifs-in-email.gif" alt="Sule Sancak Email" target="_blank" style="width:200px;height:200px;"></a>
 <p><br></p>
 
+<script>
+function myFunction() {
+  let name = document.getElementById("name").value;
+  let correctt = (name == "None") ? "True":"False";
+}
+</script>
 </body>
 </html>
